@@ -101,8 +101,8 @@
 	},
 	{ 
 		"name": "Mantle",
-		"url":"https://media.forgecdn.net/files/3551/291/Mantle-1.16.5-1.6.147.jar",
-		"checksum":"972d78b9510b9ee77d86811e4b4af876"
+		"url":"https://media.forgecdn.net/files/3482/897/Mantle-1.16.5-1.6.127.jar",
+		"checksum":"b28587558efe5485acce4ab6c8d7c981"
 	},
 	{ 
 		"name": "Macaw's Furniture",
@@ -176,8 +176,8 @@
 	},
 	{ 
 		"name": "Tinker Construct",
-		"url":"https://media.forgecdn.net/files/3564/691/TConstruct-1.16.5-3.3.1.316.jar",
-		"checksum":"f48b0d8fb86d5890fd0d8fffc0740802"
+		"url":"https://media.forgecdn.net/files/3439/200/TConstruct-1.16.5-3.1.2.265.jar",
+		"checksum":"89d07098aad5885be27200f2a71ab020"
 	},
 	{ 
 		"name": "Tetra",
