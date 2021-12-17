@@ -1,3 +1,207 @@
 [ 
-	{ "name": "MineCoin", "url": "google.com", "checksum":"35435345"}
+	{ 
+		"name": "Chisel",
+		"url":"https://download1490.mediafire.com/ehz9ydcirrog/i51wg302nb76w96/Chisel-1.16.5.jar",
+		"checksum":"f324f5539799becbc66d71b8a1a4a775"
+	},
+	{ 
+		"name": "TL Skin",
+		"url":"https://download746.mediafire.com/4xrga5ux124g/9jd1iy389wb2q5p/tl_skin_cape_forge_1.16.5-1.17.jar",
+		"checksum":"9702f3c7b21c603e0f58e315cdc929f2"
+	},
+	{ 
+		"name": "Optifine",
+		"url":"https://download2271.mediafire.com/jynrnn3g9kdg/s1p7pyjjyo0gveo/OptiFine_1.16.5_HD_U_G8.jar",
+		"checksum":"e0717ba6d1674af83036ebc479fc77b4"
+	},
+	{
+		"name":"That Future Mod",
+		"url":"https://media.forgecdn.net/files/3397/212/that_future_mod_v_4_16_0_release.jar",
+		"checksum":"c314759ce3904a1c5ad0a334e59d8b78"
+	},
+	{ 
+		"name": "SecurityCraft",
+		"url":"https://media.forgecdn.net/files/3398/327/%5b1.16.5%5d+SecurityCraft+v1.8.23.jar",
+		"checksum":"55302d3257e1d3b7b975aa5c12e031a4"
+	},
+	{ 
+		"name": "Additional guns",
+		"url":"https://media.forgecdn.net/files/3562/252/additional-guns-0.4.2-1.16.5.jar",
+		"checksum":"a128f7f780377099c76809fcf456bd0d"
+	},
+	{ 
+		"name": "Alex Mobs",
+		"url":"https://media.forgecdn.net/files/3467/280/alexsmobs-1.12.1.jar",
+		"checksum":"5f3cbbbdea79b8faa0ad0f5445587690"
+	},
+	{ 
+		"name": "AutoRegLib",
+		"url":"https://media.forgecdn.net/files/3326/41/AutoRegLib-1.6-49.jar",
+		"checksum":"16302251afc7a757f00899b270cc0fa2"
+	},
+	{ 
+		"name": "Better caves",
+		"url":"https://media.forgecdn.net/files/3307/879/BetterCaves-Forge-1.16.4-1.1.2.jar",
+		"checksum":"2a4d2750e78156a6efcbb2ea932d4e6e"
+	},
+	{ 
+		"name": "MrCrayfish Furniture Mod",
+		"url":"https://media.forgecdn.net/files/3346/467/cfm-7.0.0pre22-1.16.3.jar",
+		"checksum":"b2a5f7a361279de6bb5f51246ad36484"
+	},
+	{ 
+		"name": "MrCrayfish Gun Mod",
+		"url":"https://media.forgecdn.net/files/3553/336/cgm-1.1.0-1.16.5.jar",
+		"checksum":"4a90196ce21055182dabc9832dbbb3e5"
+	},
+	{ 
+		"name": "Chisel and bits",
+		"url":"https://media.forgecdn.net/files/3510/598/chiselsandbits-1.0.43.jar",
+		"checksum":"1650a10a69e88dd6f5d1fa6611934e9d"
+	},
+	{ 
+		"name": "Citadel",
+		"url":"https://media.forgecdn.net/files/3441/28/citadel-1.8.1-1.16.5.jar",
+		"checksum":"9ee0682eec5d343c6238e30c21c98e69"
+	},
+	{ 
+		"name": "Cosmetic Armor",
+		"url":"https://media.forgecdn.net/files/3540/310/CosmeticArmorReworked-1.16.5-v4a.jar",
+		"checksum":"10011071bb946c79bd4fbeaf40cbe293"
+	},
+	{ 
+		"name": "Dungeon Crawl",
+		"url":"https://media.forgecdn.net/files/3533/116/DungeonCrawl-1.16.5-2.3.4.jar",
+		"checksum":"c89229bf44bf13f680b0eaa4f9433206"
+	},
+	{ 
+		"name": "Dungeons Content",
+		"url":"https://media.forgecdn.net/files/3506/109/dungeons_1.10.2_mc1.16.5.jar",
+		"checksum":"cadc123033ab5d7e5b12ee8e0f9df8eb"
+	},
+	{ 
+		"name": "Easy Shulker Access",
+		"url":"https://media.forgecdn.net/files/3265/267/Easy+Shulker+Access-1.16.5-1.1.1.jar",
+		"checksum":"3ac5a0fabc7e58d2d551d1516f3e9686"
+	},
+	{ 
+		"name": "GraveStone",
+		"url":"https://media.forgecdn.net/files/3289/916/gravestone-1.16.5-1.0.6.jar",
+		"checksum":"045b52a5d3f9fb01b799930fce8d2e4e"
+	},
+	{ 
+		"name": "JEI",
+		"url":"https://media.forgecdn.net/files/3564/654/jei-1.16.5-7.7.1.138.jar",
+		"checksum":"e14a86e137442009fdc528df93f7c233"
+	},
+	{ 
+		"name": "JEV",
+		"url":"https://media.forgecdn.net/files/3173/435/jev-1.16.3-2.0.1.jar",
+		"checksum":"76e2049b81caca477ea2678e280d5c92"
+	},
+	{ 
+		"name": "Mantle",
+		"url":"https://media.forgecdn.net/files/3551/291/Mantle-1.16.5-1.6.147.jar",
+		"checksum":"972d78b9510b9ee77d86811e4b4af876"
+	},
+	{ 
+		"name": "Macaw's Furniture",
+		"url":"https://media.forgecdn.net/files/3182/349/mcw-furniture-2.0.1-mc1.16.5.jar",
+		"checksum":"54cb2e1e2cf1bb464afc6a8463442805"
+	},
+	{ 
+		"name": "Macaw's Roofs",
+		"url":"https://media.forgecdn.net/files/3182/364/mcw-roofs-2.0.1-mc1.16.5-4.jar",
+		"checksum":"76d30fc2c156fade220a6bc110913df6"
+	},
+	{ 
+		"name": "Macaw's Windows",
+		"url":"https://media.forgecdn.net/files/3565/137/mcw-windows-2.0.2-mc1.16.5.jar",
+		"checksum":"a4ad92266be265ded989f68e4267fcb5"
+	},
+	{ 
+		"name": "mGui",
+		"url":"https://media.forgecdn.net/files/3456/505/mgui-1.16.5-3.3.0.jar",
+		"checksum":"3fa14de914bbbbd45b0efdcc2cf93f21"
+	},
+	{
+		"name": "MineCoin",
+		"url": "https://github.com/Juanelsuper/MineCoin/releases/download/v1.0.0/MineCoin-1.0.jar",
+		"checksum":"9a6e7ea9a11443527d44a89b3c88b87a"
+	},
+	{ 
+		"name": "Modernxl",
+		"url":"https://media.forgecdn.net/files/3435/322/Modernxl+1.16.5.jar",
+		"checksum":"4ff345b55d108c7d0c428ca1c197bf9a"
+	},
+	{ 
+		"name": "MrCrayfish More Furniture",
+		"url":"https://media.forgecdn.net/files/3346/602/morecfm-1.3.1-1.16.3.jar",
+		"checksum":"63dad3f9781dd8cdc7f0a3e104a09cf6"
+	},
+	{ 
+		"name": "Morpheus",
+		"url":"https://media.forgecdn.net/files/3215/383/Morpheus-1.16.5-4.2.70.jar",
+		"checksum":"a7833a6c8cf784058d8dfdd792f788e1"
+	},
+	{ 
+		"name": "Obfuscate",
+		"url":"https://media.forgecdn.net/files/3336/21/obfuscate-0.6.2-1.16.3.jar",
+		"checksum":"83dcfe0612a4784611da0cc096f92da2"
+	},
+	{ 
+		"name": "Quark",
+		"url":"https://media.forgecdn.net/files/3538/744/Quark-r2.4-321.jar",
+		"checksum":"59b95a00d70bc62add9296d867739765"
+	},
+	{ 
+		"name": "QuickHomes",
+		"url":"https://media.forgecdn.net/files/3100/745/quickhomes-1.16.3-1.2.6.jar",
+		"checksum":"1c033ec5f219a21f5550a578c2362526"
+	},
+	{ 
+		"name": "QuickTeleports",
+		"url":"https://media.forgecdn.net/files/3037/920/quickteleports-1.16.2-1.1.2.jar",
+		"checksum":"fcccc4cb3c89eb911bdfd6d7d0837178"
+	},
+	{ 
+		"name": "Selene Lib",
+		"url":"https://media.forgecdn.net/files/3517/8/selene-1.16.5-1.9.0.jar",
+		"checksum":"2edb1ffe6040a68d242bd80cec3cb98d"
+	},
+	{ 
+		"name": "Supplementaries",
+		"url":"https://media.forgecdn.net/files/3544/548/supplementaries-1.16.5-0.17.12b.jar",
+		"checksum":"c3ca5c16417feb43ce5b9fbdcae785bd"
+	},
+	{ 
+		"name": "Tinker Construct",
+		"url":"https://media.forgecdn.net/files/3564/691/TConstruct-1.16.5-3.3.1.316.jar",
+		"checksum":"f48b0d8fb86d5890fd0d8fffc0740802"
+	},
+	{ 
+		"name": "Tetra",
+		"url":"https://media.forgecdn.net/files/3519/471/tetra-1.16.5-3.19.0.jar",
+		"checksum":"4e1d24a9b679511f499db6a5798bdd19"
+	},
+	{ 
+		"name": "Vehicle mod",
+		"url":"https://media.forgecdn.net/files/3103/940/vehicle-mod-0.45.2-1.16.3.jar",
+		"checksum":"c2ef69e5bfe25bb9deb11a9b38297fdb"
+	},
+	{ 
+		"name": "Xaeros Minimap",
+		"url":"https://media.forgecdn.net/files/3562/411/Xaeros_Minimap_21.22.5_Forge_1.16.5.jar",
+		"checksum":"1de6c9c3d4b897305197d31ead13f02e"
+	},
+	{ 
+		"name": "YungsAPI",
+		"url":"https://media.forgecdn.net/files/3494/919/YungsApi-1.16.4-Forge-13.jar",
+		"checksum":"d9bb57c12da921556bfd981c37f9a49a"
+	},
+	{ 
+		"name": "Zetter",
+		"url":"https://media.forgecdn.net/files/3537/874/Zetter-0.11.1-1.16.3-rc.jar",
+		"checksum":"933fe95292d747fb6ee41167853eedd1"
+	}
 ]
