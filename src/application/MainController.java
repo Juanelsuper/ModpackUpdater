@@ -1,18 +1,22 @@
 package application;
 
+import java.io.File;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
 import application.core.UpdaterWorker;
 import application.utils.ConfigHelper;
+import application.utils.OSHelper;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Control;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.stage.DirectoryChooser;
 
 public class MainController implements Initializable{
 	
@@ -53,6 +57,20 @@ public class MainController implements Initializable{
 		UpdaterWorker worker = new UpdaterWorker(this, tf_minecraft.getText(), tf_modpack.getText());
 		Thread t = new Thread(worker);
 		t.start();
+	}
+	
+	@FXML
+	private void browseDir(ActionEvent event) {
+		DirectoryChooser chooser = new DirectoryChooser();
+		String minecraftLocation = OSHelper.isWindows() ? System.getenv("APPDATA") + "\\.minecraft" : System.getProperty("user.home") +"/Library/Application Support/minecraft";
+		File minecraftDir = new File(minecraftLocation);
+		if(minecraftDir.isDirectory()) {
+			chooser.setInitialDirectory(minecraftDir);
+		}
+		File file = chooser.showDialog(((Control)event.getSource()).getScene().getWindow());
+		if(file != null && file.isDirectory()) {
+			this.tf_minecraft.setText(file.getPath());
+		}
 	}
 	
 	

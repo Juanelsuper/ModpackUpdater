@@ -8,6 +8,7 @@ import com.google.gson.JsonSyntaxException;
 
 import application.utils.FileHelper;
 import application.utils.HashHelper;
+import application.utils.OSHelper;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -21,7 +22,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
-		if(updateApp()) return;
+		if(updateApp() && OSHelper.launchProgram("./ModpackUpdater.jar")) return;
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("MainScreen.fxml"));
 			Parent screen = loader.load();
