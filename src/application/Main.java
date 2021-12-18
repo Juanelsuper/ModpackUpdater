@@ -10,12 +10,12 @@ import application.utils.FileHelper;
 import application.utils.HashHelper;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.ButtonType;
+import javafx.stage.Stage;
 
 
 public class Main extends Application {
@@ -28,7 +28,7 @@ public class Main extends Application {
 			Scene scene = new Scene(screen);
 			primaryStage.setScene(scene);
 			primaryStage.setResizable(false);
-			primaryStage.setTitle("Banana Modpack Updater b.0.1");
+			primaryStage.setTitle("Banana Modpack Updater b.0.4");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
