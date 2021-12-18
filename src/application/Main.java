@@ -31,7 +31,7 @@ public class Main extends Application {
 			primaryStage.setScene(scene);
 			primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("logo.png")));
 			primaryStage.setResizable(false);
-			primaryStage.setTitle("Banana Modpack Updater b.0.4");
+			primaryStage.setTitle("Banana Modpack Updater 0.0.5b");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
