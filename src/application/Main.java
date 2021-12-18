@@ -16,6 +16,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.ButtonType;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 
@@ -28,6 +29,7 @@ public class Main extends Application {
 			Parent screen = loader.load();
 			Scene scene = new Scene(screen);
 			primaryStage.setScene(scene);
+			primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("logo.png")));
 			primaryStage.setResizable(false);
 			primaryStage.setTitle("Banana Modpack Updater b.0.4");
 			primaryStage.show();
