@@ -43,7 +43,7 @@ public class Main extends Application {
 		JsonObject manifest = gson.fromJson(json, JsonObject.class);
 		File currentJar = new File("./ModpackUpdater.jar");
 		String checksum = HashHelper.checkSum(currentJar);
-		if(checksum == manifest.get("checksum").getAsString()) {
+		if(checksum.equals(manifest.get("checksum").getAsString())) {
 			return false;
 		}
 		Alert alert = new Alert(AlertType.CONFIRMATION, "Do you want to update the app?");
