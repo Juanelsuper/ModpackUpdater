@@ -2,6 +2,7 @@ package application.core;
 
 import java.io.File;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -23,7 +24,7 @@ public class UpdaterWorker implements Runnable {
 
 	public UpdaterWorker(MainController controller, String minecraft, String modpack) {
 		this.controller = controller;
-		this.mods_path = Path.of(minecraft,"mods").toString();
+		this.mods_path = Paths.get(minecraft,"mods").toString();
 		this.modpack = modpack;
 	}
 	

@@ -25,6 +25,7 @@ public class HashHelper {
 			}
 			return sb.toString();
 		} catch (NoSuchAlgorithmException | IOException e) {
+			e.printStackTrace();
 			return null;
 		}
 	}
