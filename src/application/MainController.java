@@ -62,7 +62,7 @@ public class MainController implements Initializable{
 	@FXML
 	private void browseDir(ActionEvent event) {
 		DirectoryChooser chooser = new DirectoryChooser();
-		String minecraftLocation = OSHelper.isWindows() ? System.getenv("APPDATA") + "\\.minecraft" : System.getProperty("user.home") +"/Library/Application Support/minecraft";
+		String minecraftLocation = OSHelper.isWindows() ? System.getenv("APPDATA") + "\\.minecraft\\versions" : System.getProperty("user.home") +"/Library/Application Support/minecraft/versions";
 		File minecraftDir = new File(minecraftLocation);
 		if(minecraftDir.isDirectory()) {
 			chooser.setInitialDirectory(minecraftDir);
