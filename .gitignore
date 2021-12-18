@@ -1,2 +1,7 @@
 .settings/*
 bin/*
+.config-modpack-updater
+bin/*
+build/*
+javafx/*
+.settings/*

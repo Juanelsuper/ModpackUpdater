@@ -1,11 +1,13 @@
 package application;
 
+import java.io.File;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
 import application.core.UpdaterWorker;
 import application.utils.ConfigHelper;
+import application.utils.FileHelper;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
