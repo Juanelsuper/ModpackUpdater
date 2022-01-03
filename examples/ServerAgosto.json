@@ -1,8 +1,13 @@
 [ 
 	{ 
 		"name": "Chisel",
-		"url":"https://download1490.mediafire.com/ehz9ydcirrog/i51wg302nb76w96/Chisel-1.16.5.jar",
-		"checksum":"f324f5539799becbc66d71b8a1a4a775"
+		"url":"https://download1336.mediafire.com/npd68bkadivg/f222ulw3k61m9qa/Chisel-1.16.5-v2.jar",
+		"checksum":"e89dc6f42174ba29f69db011982f1453"
+	},
+	{
+		"name": "Comes Alive",
+		"url":'https://download1339.mediafire.com/b5rw8w3viedg/4twzfhzlkjqltfd/ComesAlive-1.16.5-v.0.2a.jar",
+		"checksum":"9c8c1654fcdad27edceccb997f6035e3"
 	},
 	{ 
 		"name": "Valhelsia Core",
@@ -156,8 +161,8 @@
 	},
 	{
 		"name": "MineCoin",
-		"url": "https://github.com/Juanelsuper/MineCoin/releases/download/v1.0.0/MineCoin-1.0.jar",
-		"checksum":"9a6e7ea9a11443527d44a89b3c88b87a"
+		"url": "https://media.forgecdn.net/files/3591/910/MineCoin-1.1.jar",
+		"checksum":"6e3fbbedcd438a5b9ba4f1fd23e6a1e4"
 	},
 	{ 
 		"name": "Modernxl",
