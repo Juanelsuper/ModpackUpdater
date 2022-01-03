@@ -1,7 +1,7 @@
 [ 
 	{ 
 		"name": "Chisel",
-		"url":"https://store1.gofile.io/download/a7bcbd1e-ab55-4205-8c45-7740fd1b71a5/Chisel-1.16.5-v2.jar",
+		"url":"https://github.com/Juanelsuper/Modpack-Agosto/raw/main/Chisel-1.16.5-v2.jar",
 		"checksum":"e89dc6f42174ba29f69db011982f1453"
 	},
 	{
@@ -46,12 +46,12 @@
 	},
 	{ 
 		"name": "TL Skin",
-		"url":"https://store1.gofile.io/download/e8f6a74d-13b5-4402-b573-d0d0b769ea47/tl_skin_cape_forge_1.16.5-1.17.jar",
+		"url":"https://github.com/Juanelsuper/Modpack-Agosto/raw/main/tl_skin_cape_forge_1.16.5-1.17.jar",
 		"checksum":"9702f3c7b21c603e0f58e315cdc929f2"
 	},
 	{ 
 		"name": "Optifine",
-		"url":"https://store1.gofile.io/download/6eb028f2-4f0b-4d66-bac9-3368617ea8ce/OptiFine_1.16.5_HD_U_G8.jar",
+		"url":"https://github.com/Juanelsuper/Modpack-Agosto/raw/main/OptiFine_1.16.5_HD_U_G8.jar",
 		"checksum":"e0717ba6d1674af83036ebc479fc77b4"
 	},
 	{ 
