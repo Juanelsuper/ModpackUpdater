@@ -4,6 +4,26 @@
 		"url":"https://github.com/Juanelsuper/Modpack-Agosto/raw/main/Chisel-1.16.5-v2.jar",
 		"checksum":"e89dc6f42174ba29f69db011982f1453"
 	},
+	{ 
+		"name": "Polymorph",
+		"url":"https://media.forgecdn.net/files/3587/712/polymorph-forge-1.16.5-0.38.jar",
+		"checksum":"43d1a626b8f0f9ff3ca08886be61dd5b"
+	},
+	{ 
+		"name": "Mowzie's Mobs",
+		"url":"https://media.forgecdn.net/files/3362/794/mowziesmobs-1.5.19.jar",
+		"checksum":"944fec667bdfa12a3fa7bf8531823d86"
+	},
+	{ 
+		"name": "Travelers Backpack",
+		"url":"https://media.forgecdn.net/files/3596/417/TravelersBackpack-1.16.5-5.4.6.jar",
+		"checksum":"fce193bf8751dcae671bc11de713184e"
+	},
+	{ 
+		"name": "Doggy Talents",
+		"url":"https://media.forgecdn.net/files/3547/942/DoggyTalents-1.16.5-2.1.15.jar",
+		"checksum":"4f13b3b9a710f8132f2120910dfcc046"
+	},
 	{
 		"name": "Comes Alive",
 		"url":"https://github.com/Juanelsuper/Modpack-Agosto/raw/main/ComesAlive-1.16.5-v.0.2a.jar",
