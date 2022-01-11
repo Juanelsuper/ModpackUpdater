@@ -20,11 +20,6 @@
 		"checksum":"823ef82425a66f8a780423835327c083"
 	},
 	{ 
-		"name": "Mythic Mounts",
-		"url":"https://media.forgecdn.net/files/3570/209/mythic-mounts-1.16.5-4.0.jar",
-		"checksum":"2f581bfe9a2e9545c62542d769047aee"
-	},
-	{ 
 		"name": "Moving Elevators",
 		"url":"https://media.forgecdn.net/files/3302/647/movingelevators-1.2.34-mc1.16.5.jar",
 		"checksum":"3d49a5bfff6de8af21e162ebffca2cda"
@@ -33,11 +28,6 @@
 		"name": "Mutant More",
 		"url":"https://media.forgecdn.net/files/3504/386/mutantmore-1.16.5-1.0.0.jar",
 		"checksum":"fb3de958e5625509d88fba3f0b4fb18f"
-	},
-	{ 
-		"name": "Mo' Colors",
-		"url":"https://media.forgecdn.net/files/3272/633/mocolors-1.1.2.jar",
-		"checksum":"28e44dbb1c716695321bb305b0847ae3"
 	},
 	{ 
 		"name": "Mowzie's Mobs",
