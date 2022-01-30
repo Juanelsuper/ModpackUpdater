@@ -46,8 +46,8 @@
 	},
 	{
 		"name": "Comes Alive",
-		"url":"https://github.com/Juanelsuper/Modpack-Agosto/raw/main/ComesAlive-1.16.5-v.0.5a.jar",
-		"checksum":"68b0f6a7ef020450bc0098125e5c1e8a"
+		"url":"https://github.com/Juanelsuper/Modpack-Agosto/raw/main/ComesAlive-1.16.5-v.0.6a.jar",
+		"checksum":"643227f20bdfad37f961d4f5d8e7ec98"
 	},
 	{ 
 		"name": "Valhelsia Core",
@@ -201,8 +201,8 @@
 	},
 	{
 		"name": "MineCoin",
-		"url": "https://media.forgecdn.net/files/3569/969/MineCoin-1.0.jar",
-		"checksum":"9a6e7ea9a11443527d44a89b3c88b87a"
+		"url": "https://media.forgecdn.net/files/3629/916/Minecoin-1.2.jar",
+		"checksum":"f6ce4c7c900a24c4685a382d65b5951b"
 	},
 	{ 
 		"name": "Modernxl",
