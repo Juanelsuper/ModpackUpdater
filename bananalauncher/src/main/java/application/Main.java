@@ -23,7 +23,6 @@ import javafx.stage.Stage;
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
-		OSHelper.isWindows();
 		if(updateApp() && OSHelper.launchProgram("./ModpackUpdater.jar")) return;
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("MainScreen.fxml"));
@@ -32,7 +31,7 @@ public class Main extends Application {
 			primaryStage.setScene(scene);
 			primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("logo.png")));
 			primaryStage.setResizable(false);
-			primaryStage.setTitle("Banana Modpack Updater 0.0.6b");
+			primaryStage.setTitle("Banana Modpack Updater 0.0.7b");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();

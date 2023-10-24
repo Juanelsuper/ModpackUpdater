@@ -68,6 +68,10 @@ public class UpdaterWorker implements Runnable {
 			}
 		}
 	}
+
+	private static boolean isJarName(String name){
+		return name.endsWith(".jar");
+	}
 	
 	private void downloadNewMods(Set<Mod> newMods) {
 		for(Mod mod : newMods) {
@@ -76,6 +80,12 @@ public class UpdaterWorker implements Runnable {
 				byte[] newMod = FileHelper.readRemoteFile(mod.url);
 				String[] temp = mod.url.split("/");
 				String fileName = temp[temp.length - 1];
+				if(!isJarName(fileName)){
+					fileName = mod.name;
+					if(!isJarName(fileName)){
+						fileName += ".jar";
+					}
+				}
 				if(!FileHelper.writeFile(this.mods_path, fileName , newMod)) {
 					printInLog("ERROR: failed to create file for " + mod.name);
 				}
